@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0808E061D29EA660005BA17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0808E051D29EA660005BA17 /* AppDelegate.swift */; };
+		B0808E081D29EA660005BA17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0808E071D29EA660005BA17 /* ViewController.swift */; };
+		B0808E0B1D29EA660005BA17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0808E091D29EA660005BA17 /* Main.storyboard */; };
+		B0808E0E1D29EA660005BA17 /* Reverse_Words.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0808E0C1D29EA660005BA17 /* Reverse_Words.xcdatamodeld */; };
+		B0808E101D29EA660005BA17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0808E0F1D29EA660005BA17 /* Assets.xcassets */; };
+		B0808E131D29EA660005BA17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0808E111D29EA660005BA17 /* LaunchScreen.storyboard */; };
+		B0808E1E1D29EA660005BA17 /* Reverse_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0808E1D1D29EA660005BA17 /* Reverse_WordsTests.swift */; };
+		B0808E291D29EA660005BA17 /* Reverse_WordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0808E281D29EA660005BA17 /* Reverse_WordsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0808E1A1D29EA660005BA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0808DFA1D29EA660005BA17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0808E011D29EA660005BA17;
+			remoteInfo = "Reverse Words";
+		};
+		B0808E251D29EA660005BA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0808DFA1D29EA660005BA17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0808E011D29EA660005BA17;
+			remoteInfo = "Reverse Words";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0808E021D29EA660005BA17 /* Reverse Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reverse Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0808E051D29EA660005BA17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0808E071D29EA660005BA17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0808E0A1D29EA660005BA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0808E0D1D29EA660005BA17 /* Reverse_Words.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reverse_Words.xcdatamodel; sourceTree = "<group>"; };
+		B0808E0F1D29EA660005BA17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0808E121D29EA660005BA17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0808E141D29EA660005BA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0808E191D29EA660005BA17 /* Reverse WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reverse WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0808E1D1D29EA660005BA17 /* Reverse_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse_WordsTests.swift; sourceTree = "<group>"; };
+		B0808E1F1D29EA660005BA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0808E241D29EA660005BA17 /* Reverse WordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reverse WordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0808E281D29EA660005BA17 /* Reverse_WordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse_WordsUITests.swift; sourceTree = "<group>"; };
+		B0808E2A1D29EA660005BA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0808DFF1D29EA660005BA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0808E161D29EA660005BA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0808E211D29EA660005BA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0808DF91D29EA660005BA17 = {
+			isa = PBXGroup;
+			children = (
+				B0808E041D29EA660005BA17 /* Reverse Words */,
+				B0808E1C1D29EA660005BA17 /* Reverse WordsTests */,
+				B0808E271D29EA660005BA17 /* Reverse WordsUITests */,
+				B0808E031D29EA660005BA17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0808E031D29EA660005BA17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0808E021D29EA660005BA17 /* Reverse Words.app */,
+				B0808E191D29EA660005BA17 /* Reverse WordsTests.xctest */,
+				B0808E241D29EA660005BA17 /* Reverse WordsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0808E041D29EA660005BA17 /* Reverse Words */ = {
+			isa = PBXGroup;
+			children = (
+				B0808E051D29EA660005BA17 /* AppDelegate.swift */,
+				B0808E071D29EA660005BA17 /* ViewController.swift */,
+				B0808E091D29EA660005BA17 /* Main.storyboard */,
+				B0808E0F1D29EA660005BA17 /* Assets.xcassets */,
+				B0808E111D29EA660005BA17 /* LaunchScreen.storyboard */,
+				B0808E141D29EA660005BA17 /* Info.plist */,
+				B0808E0C1D29EA660005BA17 /* Reverse_Words.xcdatamodeld */,
+			);
+			path = "Reverse Words";
+			sourceTree = "<group>";
+		};
+		B0808E1C1D29EA660005BA17 /* Reverse WordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0808E1D1D29EA660005BA17 /* Reverse_WordsTests.swift */,
+				B0808E1F1D29EA660005BA17 /* Info.plist */,
+			);
+			path = "Reverse WordsTests";
+			sourceTree = "<group>";
+		};
+		B0808E271D29EA660005BA17 /* Reverse WordsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0808E281D29EA660005BA17 /* Reverse_WordsUITests.swift */,
+				B0808E2A1D29EA660005BA17 /* Info.plist */,
+			);
+			path = "Reverse WordsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0808E011D29EA660005BA17 /* Reverse Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0808E2D1D29EA660005BA17 /* Build configuration list for PBXNativeTarget "Reverse Words" */;
+			buildPhases = (
+				B0808DFE1D29EA660005BA17 /* Sources */,
+				B0808DFF1D29EA660005BA17 /* Frameworks */,
+				B0808E001D29EA660005BA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reverse Words";
+			productName = "Reverse Words";
+			productReference = B0808E021D29EA660005BA17 /* Reverse Words.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0808E181D29EA660005BA17 /* Reverse WordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0808E301D29EA660005BA17 /* Build configuration list for PBXNativeTarget "Reverse WordsTests" */;
+			buildPhases = (
+				B0808E151D29EA660005BA17 /* Sources */,
+				B0808E161D29EA660005BA17 /* Frameworks */,
+				B0808E171D29EA660005BA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0808E1B1D29EA660005BA17 /* PBXTargetDependency */,
+			);
+			name = "Reverse WordsTests";
+			productName = "Reverse WordsTests";
+			productReference = B0808E191D29EA660005BA17 /* Reverse WordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0808E231D29EA660005BA17 /* Reverse WordsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0808E331D29EA660005BA17 /* Build configuration list for PBXNativeTarget "Reverse WordsUITests" */;
+			buildPhases = (
+				B0808E201D29EA660005BA17 /* Sources */,
+				B0808E211D29EA660005BA17 /* Frameworks */,
+				B0808E221D29EA660005BA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0808E261D29EA660005BA17 /* PBXTargetDependency */,
+			);
+			name = "Reverse WordsUITests";
+			productName = "Reverse WordsUITests";
+			productReference = B0808E241D29EA660005BA17 /* Reverse WordsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0808DFA1D29EA660005BA17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Hana;
+				TargetAttributes = {
+					B0808E011D29EA660005BA17 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						DevelopmentTeamName = "John Hartwell (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					B0808E181D29EA660005BA17 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						DevelopmentTeamName = "John Hartwell (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0808E011D29EA660005BA17;
+					};
+					B0808E231D29EA660005BA17 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						DevelopmentTeamName = "John Hartwell (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0808E011D29EA660005BA17;
+					};
+				};
+			};
+			buildConfigurationList = B0808DFD1D29EA660005BA17 /* Build configuration list for PBXProject "Reverse Words" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0808DF91D29EA660005BA17;
+			productRefGroup = B0808E031D29EA660005BA17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0808E011D29EA660005BA17 /* Reverse Words */,
+				B0808E181D29EA660005BA17 /* Reverse WordsTests */,
+				B0808E231D29EA660005BA17 /* Reverse WordsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0808E001D29EA660005BA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0808E131D29EA660005BA17 /* LaunchScreen.storyboard in Resources */,
+				B0808E101D29EA660005BA17 /* Assets.xcassets in Resources */,
+				B0808E0B1D29EA660005BA17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0808E171D29EA660005BA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0808E221D29EA660005BA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0808DFE1D29EA660005BA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0808E081D29EA660005BA17 /* ViewController.swift in Sources */,
+				B0808E061D29EA660005BA17 /* AppDelegate.swift in Sources */,
+				B0808E0E1D29EA660005BA17 /* Reverse_Words.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0808E151D29EA660005BA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0808E1E1D29EA660005BA17 /* Reverse_WordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0808E201D29EA660005BA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0808E291D29EA660005BA17 /* Reverse_WordsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0808E1B1D29EA660005BA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0808E011D29EA660005BA17 /* Reverse Words */;
+			targetProxy = B0808E1A1D29EA660005BA17 /* PBXContainerItemProxy */;
+		};
+		B0808E261D29EA660005BA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0808E011D29EA660005BA17 /* Reverse Words */;
+			targetProxy = B0808E251D29EA660005BA17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0808E091D29EA660005BA17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0808E0A1D29EA660005BA17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0808E111D29EA660005BA17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0808E121D29EA660005BA17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0808E2B1D29EA660005BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0808E2C1D29EA660005BA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0808E2E1D29EA660005BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reverse Words/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Reverse-Words";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B0808E2F1D29EA660005BA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reverse Words/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Reverse-Words";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B0808E311D29EA660005BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reverse WordsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Reverse-WordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reverse Words.app/Reverse Words";
+			};
+			name = Debug;
+		};
+		B0808E321D29EA660005BA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reverse WordsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Reverse-WordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reverse Words.app/Reverse Words";
+			};
+			name = Release;
+		};
+		B0808E341D29EA660005BA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reverse WordsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Reverse-WordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Reverse Words";
+			};
+			name = Debug;
+		};
+		B0808E351D29EA660005BA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reverse WordsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Reverse-WordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Reverse Words";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0808DFD1D29EA660005BA17 /* Build configuration list for PBXProject "Reverse Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0808E2B1D29EA660005BA17 /* Debug */,
+				B0808E2C1D29EA660005BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0808E2D1D29EA660005BA17 /* Build configuration list for PBXNativeTarget "Reverse Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0808E2E1D29EA660005BA17 /* Debug */,
+				B0808E2F1D29EA660005BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0808E301D29EA660005BA17 /* Build configuration list for PBXNativeTarget "Reverse WordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0808E311D29EA660005BA17 /* Debug */,
+				B0808E321D29EA660005BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0808E331D29EA660005BA17 /* Build configuration list for PBXNativeTarget "Reverse WordsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0808E341D29EA660005BA17 /* Debug */,
+				B0808E351D29EA660005BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0808E0C1D29EA660005BA17 /* Reverse_Words.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0808E0D1D29EA660005BA17 /* Reverse_Words.xcdatamodel */,
+			);
+			currentVersion = B0808E0D1D29EA660005BA17 /* Reverse_Words.xcdatamodel */;
+			path = Reverse_Words.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0808DFA1D29EA660005BA17 /* Project object */;
+}
