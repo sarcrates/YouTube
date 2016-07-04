@@ -1,5 +1,0 @@
-tell application "Messages"
-	get every service
-	set theBuddy to buddy "+14157389303" of service id "12E400F7-F5BA-4AE5-B278-9950CC70AFA7"
-	send "🍎" to theBuddy
-end tell
