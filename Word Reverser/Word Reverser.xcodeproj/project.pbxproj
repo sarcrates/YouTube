@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04B14171D29D0C300098F6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B14161D29D0C300098F6D /* AppDelegate.swift */; };
+		B04B14191D29D0C300098F6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B14181D29D0C300098F6D /* ViewController.swift */; };
+		B04B141B1D29D0C300098F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04B141A1D29D0C300098F6D /* Assets.xcassets */; };
+		B04B141E1D29D0C300098F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04B141C1D29D0C300098F6D /* Main.storyboard */; };
+		B04B14291D29D0C300098F6D /* Word_ReverserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B14281D29D0C300098F6D /* Word_ReverserTests.swift */; };
+		B04B14341D29D0C300098F6D /* Word_ReverserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B14331D29D0C300098F6D /* Word_ReverserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04B14251D29D0C300098F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04B140B1D29D0C300098F6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04B14121D29D0C300098F6D;
+			remoteInfo = "Word Reverser";
+		};
+		B04B14301D29D0C300098F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04B140B1D29D0C300098F6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04B14121D29D0C300098F6D;
+			remoteInfo = "Word Reverser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04B14131D29D0C300098F6D /* Word Reverser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Reverser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04B14161D29D0C300098F6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B04B14181D29D0C300098F6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B04B141A1D29D0C300098F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04B141D1D29D0C300098F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B04B141F1D29D0C300098F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04B14241D29D0C300098F6D /* Word ReverserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word ReverserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04B14281D29D0C300098F6D /* Word_ReverserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ReverserTests.swift; sourceTree = "<group>"; };
+		B04B142A1D29D0C300098F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04B142F1D29D0C300098F6D /* Word ReverserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word ReverserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04B14331D29D0C300098F6D /* Word_ReverserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ReverserUITests.swift; sourceTree = "<group>"; };
+		B04B14351D29D0C300098F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04B14101D29D0C300098F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B14211D29D0C300098F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B142C1D29D0C300098F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04B140A1D29D0C300098F6D = {
+			isa = PBXGroup;
+			children = (
+				B04B14151D29D0C300098F6D /* Word Reverser */,
+				B04B14271D29D0C300098F6D /* Word ReverserTests */,
+				B04B14321D29D0C300098F6D /* Word ReverserUITests */,
+				B04B14141D29D0C300098F6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04B14141D29D0C300098F6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04B14131D29D0C300098F6D /* Word Reverser.app */,
+				B04B14241D29D0C300098F6D /* Word ReverserTests.xctest */,
+				B04B142F1D29D0C300098F6D /* Word ReverserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04B14151D29D0C300098F6D /* Word Reverser */ = {
+			isa = PBXGroup;
+			children = (
+				B04B14161D29D0C300098F6D /* AppDelegate.swift */,
+				B04B14181D29D0C300098F6D /* ViewController.swift */,
+				B04B141A1D29D0C300098F6D /* Assets.xcassets */,
+				B04B141C1D29D0C300098F6D /* Main.storyboard */,
+				B04B141F1D29D0C300098F6D /* Info.plist */,
+			);
+			path = "Word Reverser";
+			sourceTree = "<group>";
+		};
+		B04B14271D29D0C300098F6D /* Word ReverserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04B14281D29D0C300098F6D /* Word_ReverserTests.swift */,
+				B04B142A1D29D0C300098F6D /* Info.plist */,
+			);
+			path = "Word ReverserTests";
+			sourceTree = "<group>";
+		};
+		B04B14321D29D0C300098F6D /* Word ReverserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B04B14331D29D0C300098F6D /* Word_ReverserUITests.swift */,
+				B04B14351D29D0C300098F6D /* Info.plist */,
+			);
+			path = "Word ReverserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04B14121D29D0C300098F6D /* Word Reverser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04B14381D29D0C300098F6D /* Build configuration list for PBXNativeTarget "Word Reverser" */;
+			buildPhases = (
+				B04B140F1D29D0C300098F6D /* Sources */,
+				B04B14101D29D0C300098F6D /* Frameworks */,
+				B04B14111D29D0C300098F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word Reverser";
+			productName = "Word Reverser";
+			productReference = B04B14131D29D0C300098F6D /* Word Reverser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04B14231D29D0C300098F6D /* Word ReverserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04B143B1D29D0C300098F6D /* Build configuration list for PBXNativeTarget "Word ReverserTests" */;
+			buildPhases = (
+				B04B14201D29D0C300098F6D /* Sources */,
+				B04B14211D29D0C300098F6D /* Frameworks */,
+				B04B14221D29D0C300098F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04B14261D29D0C300098F6D /* PBXTargetDependency */,
+			);
+			name = "Word ReverserTests";
+			productName = "Word ReverserTests";
+			productReference = B04B14241D29D0C300098F6D /* Word ReverserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04B142E1D29D0C300098F6D /* Word ReverserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04B143E1D29D0C300098F6D /* Build configuration list for PBXNativeTarget "Word ReverserUITests" */;
+			buildPhases = (
+				B04B142B1D29D0C300098F6D /* Sources */,
+				B04B142C1D29D0C300098F6D /* Frameworks */,
+				B04B142D1D29D0C300098F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04B14311D29D0C300098F6D /* PBXTargetDependency */,
+			);
+			name = "Word ReverserUITests";
+			productName = "Word ReverserUITests";
+			productReference = B04B142F1D29D0C300098F6D /* Word ReverserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04B140B1D29D0C300098F6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Hana;
+				TargetAttributes = {
+					B04B14121D29D0C300098F6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						DevelopmentTeamName = "John Hartwell (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					B04B14231D29D0C300098F6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						DevelopmentTeamName = "John Hartwell (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = B04B14121D29D0C300098F6D;
+					};
+					B04B142E1D29D0C300098F6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7478QW4H4K;
+						DevelopmentTeamName = "John Hartwell (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = B04B14121D29D0C300098F6D;
+					};
+				};
+			};
+			buildConfigurationList = B04B140E1D29D0C300098F6D /* Build configuration list for PBXProject "Word Reverser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04B140A1D29D0C300098F6D;
+			productRefGroup = B04B14141D29D0C300098F6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04B14121D29D0C300098F6D /* Word Reverser */,
+				B04B14231D29D0C300098F6D /* Word ReverserTests */,
+				B04B142E1D29D0C300098F6D /* Word ReverserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04B14111D29D0C300098F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04B141B1D29D0C300098F6D /* Assets.xcassets in Resources */,
+				B04B141E1D29D0C300098F6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B14221D29D0C300098F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B142D1D29D0C300098F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04B140F1D29D0C300098F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04B14191D29D0C300098F6D /* ViewController.swift in Sources */,
+				B04B14171D29D0C300098F6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B14201D29D0C300098F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04B14291D29D0C300098F6D /* Word_ReverserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04B142B1D29D0C300098F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04B14341D29D0C300098F6D /* Word_ReverserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04B14261D29D0C300098F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04B14121D29D0C300098F6D /* Word Reverser */;
+			targetProxy = B04B14251D29D0C300098F6D /* PBXContainerItemProxy */;
+		};
+		B04B14311D29D0C300098F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04B14121D29D0C300098F6D /* Word Reverser */;
+			targetProxy = B04B14301D29D0C300098F6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B04B141C1D29D0C300098F6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04B141D1D29D0C300098F6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B04B14361D29D0C300098F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B04B14371D29D0C300098F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B04B14391D29D0C300098F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word Reverser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Word-Reverser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B04B143A1D29D0C300098F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word Reverser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Word-Reverser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B04B143C1D29D0C300098F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word ReverserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Word-ReverserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Reverser.app/Contents/MacOS/Word Reverser";
+			};
+			name = Debug;
+		};
+		B04B143D1D29D0C300098F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word ReverserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Word-ReverserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Reverser.app/Contents/MacOS/Word Reverser";
+			};
+			name = Release;
+		};
+		B04B143F1D29D0C300098F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word ReverserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Word-ReverserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Word Reverser";
+			};
+			name = Debug;
+		};
+		B04B14401D29D0C300098F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Word ReverserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.sarcrates.Word-ReverserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Word Reverser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04B140E1D29D0C300098F6D /* Build configuration list for PBXProject "Word Reverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04B14361D29D0C300098F6D /* Debug */,
+				B04B14371D29D0C300098F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04B14381D29D0C300098F6D /* Build configuration list for PBXNativeTarget "Word Reverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04B14391D29D0C300098F6D /* Debug */,
+				B04B143A1D29D0C300098F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B04B143B1D29D0C300098F6D /* Build configuration list for PBXNativeTarget "Word ReverserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04B143C1D29D0C300098F6D /* Debug */,
+				B04B143D1D29D0C300098F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B04B143E1D29D0C300098F6D /* Build configuration list for PBXNativeTarget "Word ReverserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04B143F1D29D0C300098F6D /* Debug */,
+				B04B14401D29D0C300098F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B04B140B1D29D0C300098F6D /* Project object */;
+}
